@@ -1,0 +1,16 @@
+
+
+<article class="post">
+    <header class="post-header">
+        <a href="{{ include.post.url | prepend: site.baseurl }}">
+            <h1 class="post-title">{{ include.post.title }}</h1>
+        </a>
+        <p class="post-meta">{{ include.post.date | date: "%b %-d, %Y" }}
+            {% if include.post.author %} • {{ include.post.author }}{% endif %}
+            {% if include.post.meta %} • {{ include.post.meta }}{% endif %}</p>
+    </header>
+
+    <div class="post-content">
+        {{ include.body }}
+    </div>
+</article>
