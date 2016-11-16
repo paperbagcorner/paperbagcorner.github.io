@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Testpost"
+author: "Mattias Andersson"
 date:   2016-11-14 19:30:12
 categories: test
 ---
