@@ -2,7 +2,7 @@
 title: Klientbaserad webbprogrammering
 email: mandersson444@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Det här är en webbplats där mina projekt i kursen klienbaserad
+  Det här är en webbplats där mina projekt i kursen klientbaserad
   webbprogrammering presenteras.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
