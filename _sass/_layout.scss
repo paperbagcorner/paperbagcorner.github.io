@@ -1,0 +1,20 @@
+/**
+ * Site header
+ */
+.site-header {
+    width: 100%;
+    padding: $spacing-unit;
+    background-color: $brand-color;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+
+    a {
+        color: $header-text-color;
+    }
+}
+
+
+.menu-icon {
+    display: none;
+}
