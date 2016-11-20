@@ -26,6 +26,14 @@
     .menu-icon {
         display: none;
     }
+
+    .page-link {
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
 }
 
 /**
