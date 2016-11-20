@@ -78,10 +78,17 @@
             display: none;
         }
 
-        &:hover .trigger,
-        &:active .trigger {
-            display: block;
-            padding-bottom: 5px;
+        &:hover,
+        &:active {
+
+            .trigger {
+                display: block;
+                padding-bottom: 5px;
+            }
+
+            .menu-icon {
+                display: none;
+            }
         }
 
         .page-link {
