@@ -42,6 +42,11 @@
 
 main {
     @extend .main-width;
+
+    .post:not(:last-child) {
+        border-bottom: 1px solid $grey-color-light;
+        margin-bottom: $spacing-unit;
+    }
 }
 
 
