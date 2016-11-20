@@ -1,4 +1,4 @@
-.main-width {
+%main-width {
     max-width: $main-width;
     padding: $spacing-unit;
     margin: 0 auto;
@@ -19,7 +19,7 @@
 }
 
 .site-header {
-    @extend .main-width;
+    @extend %main-width;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -46,7 +46,7 @@
  */
 
 main {
-    @extend .main-width;
+    @extend %main-width;
 
     .post:not(:last-child) {
         border-bottom: 1px solid $grey-color-light;
@@ -59,7 +59,7 @@ main {
  * Site footer
  */
 .site-footer {
-    @extend .main-width;
+    @extend %main-width;
 
     border-top: 1px solid $grey-color-light;
 }
