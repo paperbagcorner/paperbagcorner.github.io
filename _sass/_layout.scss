@@ -36,4 +36,13 @@ main {
 }
 
 
+/**
+ * Site footer
+ */
+.site-footer {
+    @extend .main-width;
+
+    border-top: 1px solid $grey-color-light;
+}
+
 
