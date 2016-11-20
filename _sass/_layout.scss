@@ -1,10 +1,19 @@
+.main-width {
+    max-width: $main-width;
+    padding: $spacing-unit;
+    margin: 0 auto;
+}
+
 /**
  * Site header
  */
-.site-header {
+.header-wrapper {
     width: 100%;
-    padding: $spacing-unit;
     background-color: $brand-color;
+}
+
+.site-header {
+    @extend .main-width;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -12,9 +21,19 @@
     a {
         color: $header-text-color;
     }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+/**
+ * Main content
+ */
+
+main {
+    @extend .main-width;
 }
 
 
-.menu-icon {
-    display: none;
-}
+
