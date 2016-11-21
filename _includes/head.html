@@ -16,6 +16,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://github.com/paperbagcorner.png">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:description" content="{{ description | strip_html }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
