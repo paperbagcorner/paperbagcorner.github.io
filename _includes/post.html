@@ -2,9 +2,14 @@
 
 <article class="post">
     <header class="post-header">
+        {% unless include.single %}
         <a href="{{ include.post.url | prepend: site.baseurl }}">
+        {% endunless %}
             <h1 class="post-title">{{ include.post.title }}</h1>
+        {% unless include.single %}
         </a>
+        {% endunless %}
+
         <p class="post-meta">{{ include.post.date | date: "%b %-d, %Y" }}
             {% if include.post.author %} • {{ include.post.author }}{% endif %}
             {% if include.post.meta %} • {{ include.post.meta }}{% endif %}</p>
@@ -14,7 +19,7 @@
         {{ include.body }}
     </div>
 
-    {% if include.post.comments %}
+    {% if include.single and include.post.comments %}
     <div id="disqus_thread"></div>
     <script>
 
