@@ -4,7 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
+
+    {% if page.excerpt %}
+        {% assign description=page.excerpt %}
+    {% else %}
+        {% assign description=site.description %}
+    {% endif %}
+    <meta name="description" content="{{ description | strip_html }}">
 
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:type" content="website">
