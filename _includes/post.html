@@ -10,7 +10,7 @@
         </a>
         {% endunless %}
 
-        <p class="post-meta">{{ include.post.date | date: "%b %-d, %Y" }}
+        <p class="post-meta">{{ include.post.date | date: "%-d %b %Y" }}
             {% if include.post.author %} • {{ include.post.author }}{% endif %}
             {% if include.post.meta %} • {{ include.post.meta }}{% endif %}</p>
     </header>
