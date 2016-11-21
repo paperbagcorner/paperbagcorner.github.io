@@ -1,0 +1,10 @@
+/* TEAM */
+
+Author: Mattias Andersson
+Site: https://github.com/paperbagcorner
+Github: paperbagcorner
+Location: Sweden
+
+/* SITE */
+
+Software: Jekyll, Sass
