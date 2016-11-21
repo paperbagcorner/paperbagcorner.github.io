@@ -7,7 +7,7 @@ categories: test
 comments: true
 ---
 
-Det här är en testpost för att reda ut hyr [Jekyll] fungerar.
+Det här är en testpost för att reda ut hur [Jekyll] fungerar.
 
 ### Underrubrik
 
