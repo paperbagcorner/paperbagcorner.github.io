@@ -15,6 +15,7 @@
 .header-wrapper {
     width: 100%;
     background-color: $brand-color;
+    background-image: -webkit-linear-gradient(left, $brand-color, lighten($brand-color, 15%));
     background-image: linear-gradient(to right , $brand-color, lighten($brand-color, 15%));
 }
 
