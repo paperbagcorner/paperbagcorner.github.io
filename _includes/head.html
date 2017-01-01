@@ -4,6 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <script>
+        {% if page.title %}
+        console.log("Title: {{ page.title }}");
+        {% else %}
+        console.log("No title");
+        {% endif %}
+    </script>
 
     {% if page.excerpt %}
         {% assign description=page.excerpt %}
