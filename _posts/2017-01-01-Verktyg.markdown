@@ -69,13 +69,27 @@ sidor på webbplatsen som de är välkomna att besöka. Man kan konfigurera den
 olika för olika robotar genom att matcha `User-agent` mot vald robot.
  
 Eftersom den här webbplatsen är experimentiell så har jag valt att inte låta 
-några robotar besöka den. Min robots.txt ser därför ut på följande sätt:
+några robotar besöka den. Min [robots.txt](/robots.txt) ser därför ut på 
+följande sätt:
 
 ```
 User-agent: *
 Disallow: /
 ```
 
+## Humans.txt
+
+Humans.txt är ett initiativ för att synliggöra människorna bakom en webbplats. 
+I praktiken innebär det att en fil med namnet `humans.txt` är placerad i 
+roten på webbplatsen. I denna fil kan man nämna alla personer som varit 
+medverkande i att skapa webbplatsen. Man kan också lägga till programvara och
+verktyg som använts i utvecklingen av webbplatsen.
+
+I min egen [humans.txt](/humans.txt) har jag lagt till mitt namn, 
+Github-sida och var i världen jag befinner mig. Jag har också lagt till 
+information om de verktyg jag använt för att skapa webbplatsen.
+
 [Disqus]: https://disqus.com/
 [Sass]: http://sass-lang.com/
-[Robots.txt]: /robots.txt
+[Robots.txt]: http://www.robotstxt.org/
+[humans.txt]: http://humanstxt.org
