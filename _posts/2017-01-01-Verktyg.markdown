@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Verktyg"
+author: "Mattias Andersson"
+date:   2017-01-01 11:36:00
+categories: web
+comments: true
+---
+
+# Verktyg som använts för att skapa den här webbplatsen
+
+För att skapa den här webbplatsen har jag använt några olika verktyg och 
+tekniker. 
+
+Själva webbplatsen är skapad med hjälp av en *static site 
+generator*. Till det har jag använt en *css-preprocessor* för att generera 
+css. Till hjälp för robotar och andra finns *robots.txt* och *humans.txt*. 
+Kommentarer har implementerats med hjälp av [Disqus] och för att webbplatsen 
+skall delas på ett bra sätt på sociala medier så har jag använt mig af *Open 
+Graph.*
+
+## Preprocessad css
+
+Normal css har en del svagheter som  gör att det snabbt kan bli tungarbetat 
+om man arbetar på ett större projekt. Till exempel finns ingen möjlighet att 
+använda variabler. Det gör att man upprepa sig ganska många gånger om man 
+exempelvis vill sätta samma färg på flera olika element.
+
+Med hjälp av en css-preprocessor kan man utvidga css-språket med diverse 
+delar som råder bot på de värsta svagheterna. Till den är webbplatsen har jag
+använt mig av [Sass]. Specifikt har jag använt mig av Sass möjligheter till 
+att definiera variabler, göra beräkningar, nästla css-selektorer och att 
+använda mixins.
+ 
+Fördelarna med en css-preprocessor är att man får en bättre organiserad och 
+mer DRY css. En av de största styrkorna är att man kan använda variabler och 
+att man därmed slipper upprepa samma värde om och om igen.
+
+Den här tekniken har så klart även några nackdelar. Det blir till exempel 
+svårare att debugga css-koden då browsern ser den slutliga rena css-koden och
+inte det man själv skrivit. Detta kan dock lösas med hjälp av *source maps.*
+Komplexiteten ökar också genom att man behöver fler verktyg för att bygga sin
+webbplats. Och byggtiderna ökar därigenom.
+
+Jag skulle dock säga att fördelarna på det hela taget överväger och att 
+utvecklingsprocessen blir betyligt smidigare om man använder en 
+css-preprocessor.
+
+[Disqus]: https://disqus.com/
+[Sass]: http://sass-lang.com/
+
