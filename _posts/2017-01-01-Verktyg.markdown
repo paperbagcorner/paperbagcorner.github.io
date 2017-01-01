@@ -7,8 +7,6 @@ categories: web
 comments: true
 ---
 
-# Verktyg som använts för att skapa den här webbplatsen
-
 För att skapa den här webbplatsen har jag använt några olika verktyg och 
 tekniker. 
 
@@ -45,6 +43,24 @@ webbplats. Och byggtiderna ökar därigenom.
 Jag skulle dock säga att fördelarna på det hela taget överväger och att 
 utvecklingsprocessen blir betyligt smidigare om man använder en 
 css-preprocessor.
+
+## Statiska sidgeneratorer
+
+En *statisk sidgenerator* (*static site generator/SSG*) är ett verktyg för 
+att skapa html-sidor med hjälp av diverser mallar. Jämfört med att skriva all 
+html-kod för hand så blir det enklare att underhålla en webbplats då man kan 
+sätta ihop olika delar till den hel sida och därigenom slippa att upprepa sig
+med att till exempel lägga till samma navigeringselement på varje sida man gör.
+ 
+Man skiljer också innehållet från design och struktur av webbplatsen då man 
+kan skriva texterna i till exempel *markdown*.
+ 
+En SSG lämpar sig bäst för webbplatser där den som driver webbplatsen 
+vet när den måste genereras på nytt, dvs för sådant innehåll som inte behöver 
+genereras dynamiskt av servern vid varje förfrågan. Om man till exempel har en 
+webbplats där man kan boka biljetter lämpar sig förmodligen inte in SSG. 
+Vissa dynamiska delar som till exempel kommentarer kan man få in på statiska 
+sidor med hjälp av en externa tjänster och javascript.
 
 [Disqus]: https://disqus.com/
 [Sass]: http://sass-lang.com/
