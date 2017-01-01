@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Klientbaserad webbprogrammering
-permalink: /
 ---
 
 Det här är en webbplats för mina projekt i kursen klientbaserad 
