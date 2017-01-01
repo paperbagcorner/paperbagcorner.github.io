@@ -236,5 +236,14 @@ main {
     img {
         float: right;
         padding: $spacing-unit / 3;
+
+    }
+
+    .full-width {
+        width: 100%;
+        height: auto;
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
