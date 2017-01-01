@@ -89,7 +89,30 @@ I min egen [humans.txt](/humans.txt) har jag lagt till mitt namn,
 Github-sida och var i världen jag befinner mig. Jag har också lagt till 
 information om de verktyg jag använt för att skapa webbplatsen.
 
+## Kommentarer
+
+För att implementera ett kommentarssystem på en statisk sida så behöver man 
+använda en extern tjänst som lagrar kommentarerna hos sig. De kan sedan visas
+på sidan med hjälp av javascript. 
+
+För denna sida valde jag att implementera [Disqus] kommentarssystem.
+
+## Open Graph
+
+[Open Graph] Används för att enkelt dela innehåll på sociala medier. Det går 
+till som så att man lägger till metadata till sidan som sedan snappas upp av 
+sociala medier som sedan formaterar det hela på ett bra sätt. Till exempel 
+använder man `og:image` för att ge en länk till en representativ bild för 
+sidan. 
+
+Jag har implementerat "title", "type", "image", "url" och "description" på 
+min webbplats genom att lägga till motsvarande metataggar i headern. Title, 
+url, och description genereras utifrån varje post medan type och image 
+refererar till samma saker på alla sidor.
+
+
 [Disqus]: https://disqus.com/
 [Sass]: http://sass-lang.com/
 [Robots.txt]: http://www.robotstxt.org/
 [humans.txt]: http://humanstxt.org
+[Open Graph]: http://ogp.me/
