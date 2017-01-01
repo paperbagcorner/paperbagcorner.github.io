@@ -6,8 +6,14 @@ description: > # this means to ignore newlines until "baseurl:"
   webbprogrammering presenteras.
 baseurl: "" # the subpath of your site, e.g. /blog/
 root: "/"
-url: "https://paperbagcorner.github.io" # the base hostname & protocol for
-                                       # your site
+
+# The base hostname & protocol for your site. Note that since jekyll 3.3 this
+# is overwritten by jekyll serve in development mode. I added the canonical
+# url below for cases when the url of the final site is needed in the
+#development case (e.g. disqus).
+url: "https://paperbagcorner.github.io"
+canonicalurl: "https://paperbagcorner.github.io"
+
 permalink: /:year/:month/:day/:title/
 # twitter_username: jekyllrb
 github_username:  paperbagcorner
