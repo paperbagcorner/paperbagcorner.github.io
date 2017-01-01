@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Klientbaserad webbprogrammering
 ---
 
 Det här är en webbplats för mina projekt i kursen klientbaserad 
