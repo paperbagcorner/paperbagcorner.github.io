@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Klientbaserad webbprogrammering
 permalink: /
 ---
 
