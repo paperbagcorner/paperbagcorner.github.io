@@ -85,16 +85,22 @@
             .trigger {
                 display: block;
                 padding-bottom: 5px;
+                position: absolute;
+                top: $menu-icon-height;
+                right: 0;
+                background-color: $background-color;
+                border-radius: 5px;
+                border: 1px solid $grey-color-light;
             }
 
-            .menu-icon {
-                display: none;
-            }
+            //.menu-icon {
+            //    display: none;
+            //}
         }
 
         .page-link {
             display: block;
-            padding: 5px 10px;
+            padding: 10px;
             color: $text-color;
         }
     }
