@@ -207,6 +207,7 @@ main {
 
 .post-content {
     margin-bottom: $spacing-unit;
+    @extend %clearfix;
 
     h2 {
         font-size: 32px;
@@ -230,5 +231,10 @@ main {
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    img {
+        float: right;
+        padding: $spacing-unit / 3;
     }
 }
