@@ -62,6 +62,20 @@ webbplats där man kan boka biljetter lämpar sig förmodligen inte in SSG.
 Vissa dynamiska delar som till exempel kommentarer kan man få in på statiska 
 sidor med hjälp av en externa tjänster och javascript.
 
+## Robots.txt
+
+[Robots.txt] är en fil som används för att berättar för webbrobotar vilka 
+sidor på webbplatsen som de är välkomna att besöka. Man kan konfigurera den 
+olika för olika robotar genom att matcha `User-agent` mot vald robot.
+ 
+Eftersom den här webbplatsen är experimentiell så har jag valt att inte låta 
+några robotar besöka den. Min robots.txt ser därför ut på följande sätt:
+
+```
+User-agent: *
+Disallow: /
+```
+
 [Disqus]: https://disqus.com/
 [Sass]: http://sass-lang.com/
-
+[Robots.txt]: /robots.txt
